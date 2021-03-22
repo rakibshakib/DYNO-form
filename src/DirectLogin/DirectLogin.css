@@ -1,0 +1,18 @@
+.directLogin__btn{ 
+    margin: 10px;
+    text-align: center;
+    
+}
+.DL-fb-btn{
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: 0.5px solid black;
+}
+.DL-em-btn{
+    padding: 5px 10px;
+    border: 0.5px solid black;
+}
+h4{
+    text-align: center;
+}

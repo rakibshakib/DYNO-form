@@ -5,7 +5,7 @@ import SignUp from '../SignUp/SignUp';
 
 const Pages = () => {
     return (
-        <div className="container-fluid">
+        <div className="container py-5 ">
             <div class="row">
                 <div className="col-md-4">
                     <Login />

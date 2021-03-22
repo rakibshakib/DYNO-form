@@ -1,26 +1,34 @@
 import React from 'react';
+import {FaFacebookF } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+import './DirectLogin.css'
 
 const DirectLogin = () => {
     return (
-        <div>
+        <>
             <h2>Direct Login</h2>
-            <form>
-            <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+            <p>for guest customers</p>
+            <div className="form__background">
+                <form className="directlogin__page form-default">
+                    <h3>Direct Login</h3>
+                    <div className="directLogin__btn">
+                        <button type="button" className="DL-fb-btn"><FaFacebookF/> login with facebook</button>
+                    </div>
+                    <div className="directLogin__btn">
+                        <button type="button" className="DL-em-btn"><AiOutlineMail/> login with email </button>
+                    </div>
+                    <div className="input-group my-4">
+                        <span className="input-group-text">  +88 </span>
+                        <input type="text" className="form-control" name="mobileNumber" placeholder="Enter Mobile Number" />
+                    </div>
+                    <h4>Or</h4>
+                    <div className="login__btn">
+                        <button type="submit" className="btn btn-primary"> Login </button>
+                    </div>
+                </form>
+                <p className="form__para">if you have no any account, please create an account <span>sign up here</span></p>
             </div>
-            <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" />
-            </div>
-            <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                <label className="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
-        </div>
+        </>
     );
 };
 

@@ -1,0 +1,24 @@
+.curierDetails{
+    border: 2px solid black;
+}
+.curierDetails_fillUp{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    width: 100px;
+}
+.curierDetails__form{
+    border: 1px solid black;
+    padding: 15px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+.curierdetails__select{
+    display: flex;
+    justify-content: space-between;
+}
+.curierdetails__select-details{
+    display: flex;
+  
+
+}

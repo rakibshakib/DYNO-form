@@ -1,0 +1,39 @@
+
+.form__background{
+    background-color: rgb(20, 192, 20);
+    padding: 15px;
+    margin-top: 20px;
+}
+span{
+    font-size: 15px;
+    color: blue;
+}
+.form__para{
+    bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+button:focus{
+        box-shadow: none !important;
+    
+}
+input {
+    text-align: center;
+}
+
+.login__btn {
+    text-align: center;
+    margin-top: 20px;
+    /* display: block;
+    width: 100%; */
+}
+.form-default{
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    height: 100%;
+}
